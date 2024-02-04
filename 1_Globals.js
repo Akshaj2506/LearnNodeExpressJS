@@ -9,6 +9,14 @@
 
 // __dirname - path to current directory
 console.log(__dirname);
-setInterval(() => {
-   console.log("hello world");
-}, 1000);
+let i = 0;
+let interval = setInterval(() => {
+   if (i < 4) console.log("hello world");
+   else clearInterval(interval);
+   i++;
+
+}, 400);
+
+const name2 = 'Nishith';
+
+module.exports = {name2}
