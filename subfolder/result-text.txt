@@ -2,3 +2,7 @@ The result is as follows:
 Hello this is the first file
 Hello this is the second file
 This data has been appended
+
+This is the new data: 
+Hello this is the first file
+Hello this is the second file
