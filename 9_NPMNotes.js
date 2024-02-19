@@ -23,8 +23,7 @@ Dev Dependencies are stored in this way:
 
 You can provide your own commands by specifying the following in package.json
 "scripts": {
-   "start": "node app.js",
-   "dev": "nodemon app.js"
+   "start": "nodemon app.js"
 }
 
 To uninstall a package: npm uninstall <packageName>
@@ -33,5 +32,5 @@ To uninstall a package: npm uninstall <packageName>
 
 npx install <packageName> is used to execute Node.js packages without actually installing the packages without the use of -g
 
-The purpose of package-lock. json is to ensure that the same dependencies are installed consistently across different environments, such as development and production environments.
+The purpose of package-lock.json is to ensure that the same dependencies are installed consistently across different environments, such as development and production environments.
 */
