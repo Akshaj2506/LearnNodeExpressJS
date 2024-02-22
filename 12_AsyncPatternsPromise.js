@@ -10,12 +10,9 @@ const getText = (path) => {
    })
 }
 
-const start = async() => {
+const start = async () => {
    const first = await getText('./subfolder/first.txt');
    const second = await getText('./subfolder/second.txt');
-
-   console.log(first);
-   console.log(second);
 }
 
 start()

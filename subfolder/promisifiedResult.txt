@@ -1,0 +1,3 @@
+This is done using .promises property while importing the fs modules:
+Hello this is the first file
+Hello this is the second file
