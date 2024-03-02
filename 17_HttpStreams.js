@@ -9,6 +9,7 @@ const server = http.createServer((req, res) => {
    // By using streams
    const fileReadStream = fs.createReadStream('./subfolder/big-file.txt', 'utf-8');
    fileReadStream.on('open', ()=> {
+      // The transfer-encoding will be shown as "chunked"
       fileReadStream.pipe(res);
    })
    fileReadStream.on('error', (err)=> {
@@ -17,5 +18,5 @@ const server = http.createServer((req, res) => {
 })
 
 server.listen(port, () => {
-   console.log(`Server running at: http://localhost:5000`);
+   console.log(`Server running at: http://localhost:${port}`);
 })
