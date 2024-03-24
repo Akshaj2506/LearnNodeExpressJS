@@ -1,4 +1,4 @@
-// NO WINDOW OBJECT exists in Node as the borwser is not included.
+// NO WINDOW OBJECT exists in Node as the browser is not included.
 
 // Globals refers to the variables which can be accessed from anywhere in the application
 
